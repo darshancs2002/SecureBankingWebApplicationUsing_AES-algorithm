@@ -1,0 +1,120 @@
+/* 
+    Document   : style
+    Created on : 29 Jun, 2023, 7:16:58 PM
+    Author     : Darshan CS
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background: #D9ECF5;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    position: absolute;
+    left: 1px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 656px;
+    /*                border-radius: 10px;*/
+    background: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 03px 4px 10px 1px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+    border: 1px solid black;
+}
+#container .navbar{
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 180px;
+    padding: 10px 0px;
+}
+#container .navbar ul{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+#container .navbar ul li{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    margin: 6px 0px;
+    border-radius: 7px;
+}
+#container .navbar ul li a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    border-radius: 7px;
+    align-items: center;
+    color: black;
+
+}
+/*              contents design*/
+#container .navbar ul li a span {
+    display: flex;
+    color: black;
+    font-size: 16px;
+    padding: 10px 8px;
+
+
+}
+/*            icon related design*/
+#container .navbar ul li a svg{ 
+    font-size: 20px;
+    margin: 0 9px;
+    color: #191919;
+
+}
+/*            after clicking buttons hover design*/
+#container .navbar ul li a:hover,#container .navbar ul li a:hover span,#container .navbar ul li a:hover ion-icon{
+    font-weight: bold;
+    color: white;
+    background: blueviolet;
+    border-radius: 7px;
+
+}
+#head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    height: 60px;
+    border: 1px solid black;
+    box-shadow: 03px 4px 10px 1px rgba(0, 0, 0, 0.2);
+}
+#head p{
+    padding-left: 400px;
+    padding-top: 12px;
+    font-size: 25px;
+}
+.images{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    right: 50px;
+    margin-top: 16px;
+}
